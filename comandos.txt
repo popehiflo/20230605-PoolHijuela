@@ -1,0 +1,23 @@
+  501  git init
+  502  git branch -M main
+  503  git remote add origin https://github.com/popehiflo/20230605-PoolHijuela.git
+  504  touch comandos.txt main.js index.html
+  505  git add .
+  506  git commit -m "commit 01 de PoolHijuela"
+  507  git push origin main
+  508  git checkout -b feature
+  509  mkdir Hardware Software SeguridadInformatica
+  510  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+  511  git add .
+  512  git commit -m "commit 02 de PoolHijuela"
+  513  git push origin feature
+  514  git checkout main
+  515  mv main.js resumenHardware.txt
+  516  mv index.html resumenSoftware.txt
+  517  cat resumenHardware.txt
+  518  cat resumenSoftware.txt
+  519  history > comandos.txt
+  520  cat comandos.txt
+  521  history 19 > comandos.txt
+  522  cat comandos.txt
+  523  history 23 > comandos.txt
